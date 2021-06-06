@@ -229,7 +229,8 @@ Navbar
   align-items: center;
 }
 .nav-header img {
-  margin-bottom: 0.375rem;
+  width: 7rem;
+
 }
 .toggle-btn {
   font-size: 2rem;
