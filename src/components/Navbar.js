@@ -1,7 +1,7 @@
 import React from "react"
 import logo from "../assets/images/logo.png"
 import { FaAlignRight } from "react-icons/fa"
-import pageLinks from "../constants/links"
+import PageLinks from "../constants/links"
 
 const Navbar = ({ toggleSidebar }) => {
   return (
@@ -13,7 +13,7 @@ const Navbar = ({ toggleSidebar }) => {
             <FaAlignRight/>
           </button>
         </div>
-      <pageLinks styleClass="nav-links"></pageLinks>
+      <PageLinks styleClass="nav-links"></PageLinks>
       </div>
     </nav>
   )
