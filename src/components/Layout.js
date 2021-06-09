@@ -1,17 +1,23 @@
-import React from 'react'
-import Navbar from './Navbar'
-import Sidebar from './Sidebar'
-import Footer from './Footer'
+import React, { useState } from "react"
+import Navbar from "./Navbar"
+import Sidebar from "./Sidebar"
+import Footer from "./Footer"
 
-import "normalize.css"
 import "../assets/css/main.css"
-const Layout = ({children}) => {
+const Layout = ({ children }) => {
+  const [isOpen, setIsOpen] = useState(false)
+
+  const toggleSidebar = () => {
+    setIsOpen(!isOpen)
+  }
+
   return (
-    <React.Fragment>
-      <Navbar />
+    <>
+      <Navbar toggleSidebar={toggleSidebar} />
+      <Sidebar isOpen={isOpen} toggleSidebar={toggleSidebar} />
       {children}
-      
-    </React.Fragment>
+      <Footer />
+    </>
   )
 }
 
