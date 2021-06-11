@@ -6,8 +6,8 @@ const Skills = () => {
     <section className="section bg-grey">
       <Title title="skills" />
       <div className="section-center services-center">
-        {skills.map(service => {
-          const { id, icon, title, text } = service
+        {skills.map(skill => {
+          const { id, icon, title, text } = skill
           return (
             <article key={id} className="service">
               {icon}
