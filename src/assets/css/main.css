@@ -891,13 +891,10 @@ About Page
 .about-page {
   padding: 7rem 0;
 }
+
 .about-img {
   margin-bottom: 2rem;
-  height: 25rem;
-}
-.about-img-svg {
-  margin-bottom: 2rem;
-  height: 25rem;
+  height: 40rem;
   width: 100%;
   display: block;
 }
@@ -937,8 +934,8 @@ About Page
     align-items: center;
     column-gap: 4rem;
   }
-  .about-img,
-  .about-img-svg {
+  
+  .about-img {
     grid-column: 1 / span 5;
     margin-bottom: 0;
   }
