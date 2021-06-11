@@ -1,6 +1,6 @@
 import React from "react"
 import logo from "../assets/images/logo.png"
-import { FaAlignRight } from "react-icons/fa"
+import { FaAlignJustify } from "react-icons/fa"
 import PageLinks from "../constants/links"
 
 const Navbar = ({ toggleSidebar }) => {
@@ -10,10 +10,10 @@ const Navbar = ({ toggleSidebar }) => {
         <div className="nav-header">
           <img src={logo} alt="VKK" />
           <button type="button" className="toggle-btn" onClick={toggleSidebar}>
-            <FaAlignRight/>
+            <FaAlignJustify />
           </button>
         </div>
-      <PageLinks styleClass="nav-links"></PageLinks>
+        <PageLinks styleClass="nav-links"></PageLinks>
       </div>
     </nav>
   )

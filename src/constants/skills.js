@@ -1,5 +1,5 @@
 import React from "react"
-import { FaCode, FaSketch, FaAndroid } from "react-icons/fa"
+import { FaCode, FaConnectdevelop, FaProjectDiagram } from "react-icons/fa"
 export default [
   {
     id: 1,
@@ -9,13 +9,13 @@ export default [
   },
   {
     id: 2,
-    icon: <FaSketch className="service-icon" />,
+    icon: <FaConnectdevelop className="service-icon" />,
     title: "BackEnd Development",
     text: `Build API with Node and C# and Worked on PostgreSQL, MSSQL and MONGO db, also Build serverless API with AWS`,
   },
   {
     id: 3,
-    icon: <FaAndroid className="service-icon" />,
+    icon: <FaProjectDiagram className="service-icon" />,
     title: "Devops",
     text: `Worked on Git & Github, Linux, Jenkins, CI & CD Pipeline, Azure devops, Docker, Kubernetes, Terraform, AWS, AZURE `,
   },
