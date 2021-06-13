@@ -3,7 +3,7 @@
 Fonts
 ===============
 */
-@import url("https://fonts.googleapis.com/css?family=Open+Sans|Roboto:400,700&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Open+Sans|Roboto:400,700&display=swap");
 
 /*
 =============== 
@@ -168,7 +168,7 @@ p {
     width: 95vw;
   }
 }
-/* added during recording */
+
 .underline {
   width: 5rem;
   height: 0.25rem;
@@ -384,12 +384,7 @@ Sidebar Animation
 .sidebar-icons li:nth-of-type(3) {
   animation-delay: 0.75s;
 }
-.sidebar-icons li:nth-of-type(4) {
-  animation-delay: 1s;
-}
-.sidebar-icons li:nth-of-type(5) {
-  animation-delay: 1.25s;
-}
+
 @keyframes slideUp {
   0% {
     transform: translateY(200px);
