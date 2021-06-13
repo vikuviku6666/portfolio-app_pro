@@ -776,6 +776,10 @@ p {
   margin: 1rem;
   text-align: justify;
   text-justify: inter-word;
+  display: -webkit-box;
+  -webkit-line-clamp: 4;
+  -webkit-box-orient: vertical;
+  overflow: hidden;
 }
 .blog-fotter {
   display: flex;
