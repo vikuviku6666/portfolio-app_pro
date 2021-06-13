@@ -230,7 +230,7 @@ Navbar
 }
 .nav-header img {
   width: 5rem;
-  }
+}
 .toggle-btn {
   font-size: 2rem;
   background: transparent;
@@ -459,7 +459,7 @@ Hero
     grid-row: 1/1;
     grid-column: 1 / span 8;
   }
- 
+
   .hero-img {
     width: 90%;
     height: 700px;
@@ -760,6 +760,46 @@ Projects
 
 /*
 ===============
+Blog 
+===============
+*/
+.blog {
+  background: var(--clr-grey-10);
+}
+.blog-img {
+  height: 20rem;
+  width: 25rem;
+}
+
+.blog-card h4,
+p {
+  margin: 1rem;
+  text-align: justify;
+  text-justify: inter-word;
+}
+.blog-fotter {
+  display: flex;
+  justify-content: space-between;
+  font-weight: bold;
+}
+
+@media screen and (min-width: 676px) {
+  .blogs-center {
+    display: grid;
+    grid-template-columns: 1fr 1fr;
+    -webkit-column-gap: 2rem;
+    -moz-column-gap: 2rem;
+    column-gap: 2rem;
+  }
+}
+@media screen and (min-width: 992px) {
+  .blogs-center {
+    grid-template-columns: 1fr 1fr 1fr;
+  }
+}
+
+/*
+===============
 Blog Template
 ===============
 */
@@ -783,11 +823,10 @@ Blog Template
   padding: 0.5rem 1rem;
   margin: 1rem 0;
   text-transform: uppercase;
-
 }
 
 .blog-template blockquote {
-  background:  var(--clr-primary-9);
+  background: var(--clr-primary-9);
   border-radius: var(--radius);
   padding: 1rem;
 }
@@ -929,7 +968,7 @@ About Page
     align-items: center;
     column-gap: 4rem;
   }
-  
+
   .about-img {
     grid-column: 1 / span 5;
     margin-bottom: 0;
