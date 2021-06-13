@@ -13,7 +13,7 @@ const Hero = () => {
             <h1>Fullstack</h1>
             <h1>Developer</h1>
             <Link to="/contact" className="btn">
-              contact me
+              contact 
             </Link>
             <SocialLinks />
           </div>

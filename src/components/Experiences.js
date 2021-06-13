@@ -62,7 +62,7 @@ const Experiences = () => {
         </article>
       </div>
       <Link to="/about" className="btn center-btn">
-        more info
+        more 
       </Link>
     </section>
   )
