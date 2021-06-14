@@ -768,12 +768,12 @@ Blog
 }
 .blog-img {
   height: 20rem;
-  width: 25rem;
+  width: 28rem;
 }
 
 .blog-card h4,
 p {
-  margin: 1rem;
+  margin: 0.5rem;
   text-align: justify;
   text-justify: inter-word;
   display: -webkit-box;
@@ -783,6 +783,7 @@ p {
 }
 .blog-fotter {
   display: flex;
+  padding-bottom: 0.5rem;
   justify-content: space-between;
   font-weight: bold;
 }
@@ -795,6 +796,7 @@ p {
     -moz-column-gap: 2rem;
     column-gap: 2rem;
   }
+  
 }
 @media screen and (min-width: 992px) {
   .blogs-center {
